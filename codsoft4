@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="post">
+        <h1>Sample Blog Post</h1>
+        <p> Controversial Subjects
+This type of blog post can be really fun to write, but remember to be wise. Controversy is always newsworthy — just look at the local news, they’re always reporting on different controversies!
+
+You just need to figure out which controversy interests you, and how you can add to the conversation. Be sure to use the keywords around the controversy too. Mac vs. PC, MailChimp vs AWeber, Gun Control, etc. are just some basic ideas.
+
+Since controversies are highly emotional, you want to be careful and choose your words wisely.</p>
+    </div>
+
+    <div class="comments">
+        <h2>Comments</h2>
+        <input type="text" id="comment" placeholder="Leave a comment">
+        <button onclick="addComment()">Submit</button>
+        <ul id="commentList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
